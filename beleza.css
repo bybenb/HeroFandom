@@ -1,0 +1,26 @@
+@charset "UTF-8";/*!
+ * Hero Fandom  v0.2 (https://bybenb.github.io/HeroFandom/)
+ * Copyright 2025-2026 The Hero Fandom Authors
+ * Copyright 2025-2026 Beny B. Reis II.
+ */
+
+body { background-color: #f8f9fa; }
+
+
+h1 {
+    font-size: 4vw;
+    margin-bottom: 36px;
+
+    color: #333;
+    font-weight: bold;
+}
+
+
+.card-img-top {
+
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.botao-doheroi { margin: 0px 0px 5px 0px; }
