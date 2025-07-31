@@ -6,9 +6,9 @@ Usei um [framework][BootsTrap] para o CSS, que achei dias atrás. Muito Otimizad
 
 
 ### Autor - Beny B Reis II
-- Veja [Aqui](https://bybenb.github.io/HeroFandom)
+- Veja o projecto [Aqui](https://bybenb.github.io/HeroFandom)
 
-- Baixe [Aqui](https:https://github.com/bybenb/HeroFandom/archive/refs/heads/main.zip)
+- Baixe o projecto [Aqui](https:https://github.com/bybenb/HeroFandom/archive/refs/heads/main.zip)
 - Or também tome um [Café](https://coff.ee/bybenb) comigo...
 
 
