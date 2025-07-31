@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!-- -... . -. -.--   .-. . .. ... -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +7,60 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
   <link rel="stylesheet" href="beleza.css">
+
+  <style>
+    :root {
+      --cap-blue: #0a3d62;
+      --cap-red: #b71540;
+      --cap-white: #f1f2f6;
+      --cap-gray: #2f3640;
+    }
+
+    body {
+      background-color: var(--cap-blue);
+      color: var(--cap-white);
+    }
+
+    .navbar {
+      background-color: var(--cap-red) !important;
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      border: 2px solid var(--cap-white);
+      color: var(--cap-white);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--cap-white);
+      color: var(--cap-blue);
+    }
+
+    .blockquote {
+      border-left: 5px solid var(--cap-white);
+      padding-left: 1rem;
+      color: var(--cap-white);
+    }
+
+    .list-group-item {
+      background-color: var(--cap-gray);
+      border: 1px solid var(--cap-white);
+      color: var(--cap-white);
+    }
+
+    footer {
+      background-color: var(--cap-red);
+    }
+
+    h1, h2 {
+      color: var(--cap-red);
+    }
+  </style>
 </head>
 <body>
+
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">Hero Fandom</a>
     </div>
@@ -19,44 +68,49 @@
 
   
   <main class="container my-5">
+    <!-- Botão Voltar -->
     <a href="index.html" class="btn btn-secondary mb-4">
       <i class="fas fa-arrow-left"></i> Voltar
     </a>
 
-<div class="text-center mb-4">
-  <h1 class="display-4">Capitão América</h1>
-  <p class="lead text-muted">O Primeiro Vingador</p>
-</div>
+    
+    <div class="text-center mb-4">
+      <h1 class="display-4">Capitão América</h1>
+      <p class="lead" style="color: #dcdde1;">O Primeiro Vingador</p>
+    </div>
 
-<div class="row">
-  <div class="col-md-6">
-    <img src="imagens/img-captao_americax540x617.jpeg" class="img-fluid rounded shadow" alt="Capitão América">
-  </div>
-  <div class="col-md-6 d-flex align-items-center">
-    <blockquote class="blockquote">
-      <p class="mb-0">"Não são armas e sim Homens, que vão vencer essas Guerras."</p>
-      <footer class="blockquote-footer" style="margin-top: 8px;" >Capitão América em <cite>Vingadores: Era de Ultron (2014)</cite></footer>
-    </blockquote>
-  </div>
-</div>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <img src="imagens/img-captao_americax540x617.jpeg" class="img-fluid rounded shadow" alt="Capitão América">
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <blockquote class="blockquote">
+          <p class="mb-0">"Não são armas e sim Homens, que vão vencer essas Guerras."</p>
+          <footer class="blockquote-footer text-light mt-2">Capitão América em <cite>Vingadores: Era de Ultron (2014)</cite></footer>
+        </blockquote>
+      </div>
+    </div>
 
-<section class="mt-5">
-  <h2 class="mb-4"><i class="fas fa-book"></i> Biografia</h2>
-  <p>Steve Rogers, um jovem franzino rejeitado pelo exército na Segunda Guerra Mundial, voluntariou-se para o experimento do "Soro do Super-Soldado". Tornou-se um símbolo de liberdade e liderança dos Vingadores.</p>
-</section>
+    
+    <section class="mt-5">
+      <h2 class="mb-4"><i class="fas fa-book"></i> Biografia</h2>
+      <p>Steve Rogers, um jovem franzino rejeitado pelo exército na Segunda Guerra Mundial, voluntariou-se para o experimento do "Soro do Super-Soldado". Tornou-se um símbolo de liberdade, coragem e justiça — liderando os Vingadores com honra.</p>
+    </section>
 
-<section class="mt-5">
-  <h2 class="mb-4"><i class="fas fa-lightbulb"></i> Curiosidades</h2>
-  <ul class="list-group">
-    <li class="list-group-item">Seu escudo é feito de Vibranium, o metal mais resistente da Terra.</li>
-    <li class="list-group-item">Ficou congelado por 70 anos antes de ser encontrado.</li>
-    <li class="list-group-item">Seu maior rival é o Caveira Vermelha.</li>
-  </ul>
-</section>
+    
+    <section class="mt-5">
+      <h2 class="mb-4"><i class="fas fa-lightbulb"></i> Curiosidades</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Seu escudo é feito de Vibranium, o metal mais resistente da Terra.</li>
+        <li class="list-group-item">Ficou congelado por 70 anos antes de ser encontrado.</li>
+        <li class="list-group-item">Seu maior rival é o Caveira Vermelha, um vilão da Hydra.</li>
+      </ul>
+    </section>
   </main>
 
   
-  <footer class="text-center py-4 bg-dark text-light mt-5">
+  <footer class="text-center py-4 text-light mt-5">
     <p>&copy; 2025 HeroFandom - By Ben B | Waste Time</p>
   </footer>
 

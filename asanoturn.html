@@ -3,14 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asa Nocturna | HeroFandom</title>
+  <title>Asa Noturna | HeroFandom</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
   <link rel="stylesheet" href="beleza.css">
+
+  <style>
+    :root {
+      --nightwing-blue: #00b4ff;
+      --nightwing-black: #0d0d0d;
+      --nightwing-gray: #1f1f1f;
+      --nightwing-white: #f1f1f1;
+    }
+
+    body {
+      background-color: var(--nightwing-black);
+      color: var(--nightwing-white);
+    }
+
+    .navbar {
+      background-color: var(--nightwing-gray);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      border: 2px solid var(--nightwing-blue);
+      color: var(--nightwing-blue);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--nightwing-blue);
+      color: var(--nightwing-black);
+    }
+
+    .blockquote {
+      border-left: 5px solid var(--nightwing-blue);
+      padding-left: 1rem;
+      color: var(--nightwing-white);
+    }
+
+    .list-group-item {
+      background-color: var(--nightwing-gray);
+      border: 1px solid var(--nightwing-blue);
+      color: var(--nightwing-white);
+    }
+
+    footer {
+      background-color: var(--nightwing-gray);
+    }
+
+    h1,
+    h2 {
+      color: var(--nightwing-blue);
+    }
+
+    .lead {
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
+
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">Hero Fandom</a>
     </div>
@@ -18,43 +73,50 @@
 
   
   <main class="container my-5">
+
+    
     <a href="index.html" class="btn btn-secondary mb-4">
       <i class="fas fa-arrow-left"></i> Voltar
-    </a>
-<div class="text-center mb-4">
-  <h1 class="display-4">Asa Noturna</h1>
-  <p class="lead text-muted">Jovem Prodígio de Gotham</p>
-</div>
+    </a>  <!-- -... . -. -.--   .-. . .. ... -->
 
-<div class="row">
-  <div class="col-md-6">
-    <img src="imagens/img_nightwing.png" class="img-fluid rounded shadow" alt="Asa Noturna">
-  </div>
-  <div class="col-md-6 d-flex align-items-center">
-    <blockquote class="blockquote">
-      <p class="mb-0">"Não sou o Robin. Não sou o Batman. Sou o que eles me ensinaram a ser."</p>
-      <footer class="blockquote-footer" style="margin-top: 8px;" >Asa Noturna em <cite>Young Justice (2012)</cite></footer>
-    </blockquote>
-  </div>
-</div>
+    
+    <div class="text-center mb-4">
+      <h1 class="display-4">Asa Noturna</h1>
+      <p class="lead">Jovem Prodígio de Gotham</p>
+    </div>
 
-<section class="mt-5">
-  <h2 class="mb-4"><i class="fas fa-book"></i> Biografia</h2>
-  <p>Dick Grayson, o primeiro Robin, deixou de ser parceiro do Batman para se tornar o herói independente Asa Noturna. Líder nato, fundou os Jovens Titãs e é conhecido por sua agilidade e habilidades acrobáticas.</p>
-</section>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <img src="imagens/img_nightwing.png" class="img-fluid rounded shadow" alt="Asa Noturna">
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <blockquote class="blockquote">
+          <p class="mb-0">"Não sou o Robin. Não sou o Batman. Sou o que eles me ensinaram a ser."</p>
+          <footer class="blockquote-footer text-light" style="margin-top: 8px;">Asa Noturna em <cite>Young Justice (2012)</cite></footer>
+        </blockquote>
+      </div>
+    </div>
 
-<section class="mt-5">
-  <h2 class="mb-4"><i class="fas fa-lightbulb"></i> Curiosidades</h2>
-  <ul class="list-group">
-    <li class="list-group-item">Filho de  trapezistas de circo, viu seus pais serem assassinados.</li>
-    <li class="list-group-item">Sua base fica em Blüdhaven, cidade vizinha a Gotham.</li>
-    <li class="list-group-item">Usa bastões elétricos como armas principais.</li>
-  </ul>
-</section>
+    
+    <section class="mt-5">
+      <h2 class="mb-4"><i class="fas fa-book"></i> Biografia</h2>
+      <p>Dick Grayson, o primeiro Robin, deixou de ser parceiro do Batman para se tornar o herói independente Asa Noturna. Líder nato, fundou os Jovens Titãs e é conhecido por sua agilidade e habilidades acrobáticas.</p>
+    </section>
+
+    
+    <section class="mt-5">
+      <h2 class="mb-4"><i class="fas fa-lightbulb"></i> Curiosidades</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Filho de trapezistas de circo, viu seus pais serem assassinados.</li>
+        <li class="list-group-item">Sua base fica em Blüdhaven, cidade vizinha a Gotham.</li>
+        <li class="list-group-item">Usa bastões elétricos como armas principais.</li>
+      </ul>
+    </section>
   </main>
 
   
-  <footer class="text-center py-4 bg-dark text-light mt-5">
+  <footer class="text-center py-4 text-light mt-5">
     <p>&copy; 2025 HeroFandom - By Ben B | Waste Time</p>
   </footer>
   <!-- -... . -. -.--   .-. . .. ... -->

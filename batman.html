@@ -7,67 +7,120 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
   <link rel="stylesheet" href="beleza.css">
+
+  <style>
+    :root {
+      --bat-black: #0a0a0a;
+      --bat-gray: #1f1f1f;
+      --bat-yellow: #ffc107;
+      --bat-white: #eaeaea;
+    }
+    
+
+    body {
+      background-color: var(--bat-black);
+      color: var(--bat-white);
+    }
+
+    .navbar {
+      background-color: var(--bat-gray);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      border: 2px solid var(--bat-yellow);
+      color: var(--bat-yellow);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--bat-yellow);
+      color: var(--bat-black);
+    }
+
+    .blockquote {
+      border-left: 5px solid var(--bat-yellow);
+      padding-left: 1rem;
+      color: var(--bat-white);
+    }
+
+    .list-group-item {
+      background-color: var(--bat-gray);
+      border: 1px solid var(--bat-yellow);
+      color: var(--bat-white);
+    }
+
+    footer {
+      background-color: var(--bat-gray);
+    }
+
+    h1,
+    h2 {
+      color: var(--bat-yellow);
+    }
+
+    .lead {
+      color: #bbb;
+    }
+  </style>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Hero Fandom</a>
+      <a class="navbar-brand" href="index.html">Hero Fandom</a>     <!-- -... . -. -.--   .-. . .. ... -->
     </div>
   </nav>
 
+  
   <main class="container my-5">
+
+    
     <a href="index.html" class="btn btn-secondary mb-4">
       <i class="fas fa-arrow-left"></i> Voltar
     </a>
 
+    
+    <div class="text-center mb-4">
+      <h1 class="display-4">Batman</h1>
+      <p class="lead">O Cavaleiro das Trevas</p>
+    </div>
 
+    
+    <div class="row">
+      <div class="col-md-6">
+        <img src="imagens/img_batman.png" class="img-fluid rounded shadow" alt="Batman">
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <blockquote class="blockquote">
+          <p class="mb-0">"Eu sou a vingança. Eu sou a noite. Eu sou o Batman!"</p>
+          <footer class="blockquote-footer text-light" style="margin-top: 8px;">Batman em <cite>Batman: A Série Animada</cite></footer>
+        </blockquote>
+      </div>
+    </div>
 
-<!-- Adicione isso dentro da seção de Conteúdo Principal -->
-<div class="text-center mb-4">
-  <h1 class="display-4">Batman</h1>
-  <p class="lead text-muted">O Cavaleiro das Trevas</p>
-</div>
+    <!-- -... . -. -.--   .-. . .. ... -->
+    <section class="mt-5">
+      <h2 class="mb-4"><i class="fas fa-book"></i> Biografia</h2>
+      <p>Bruce Wayne, traumatizado pelo assassinato de seus pais na infância, treinou por anos para combater o crime em Gotham City. Sem superpoderes, depende de sua inteligência, habilidades marciais e tecnologia avançada.</p>
+    </section>
 
-<!-- Imagem e Citação -->
-<div class="row">
-  <div class="col-md-6">
-    <img src="imagens/img_batman.png" class="img-fluid rounded shadow" alt="Batman">
-  </div>
-  <div class="col-md-6 d-flex align-items-center">
-    <blockquote class="blockquote">
-      <p class="mb-0">"Eu sou a vingança. Eu sou a noite. Eu sou o Batman!"</p>
-      <footer class="blockquote-footer" style="margin-top: 8px;">Batman em <cite>Batman: A Série Animada</cite></footer>
-    </blockquote>
-  </div>
-</div>
-
-<!-- Biografia -->
-<section class="mt-5">
-  <h2 class="mb-4"><i class="fas fa-book"></i> Biografia</h2>
-  <p>Bruce Wayne, traumatizado pelo assassinato de seus pais na infância, treinou por anos para combater o crime em Gotham City. Sem superpoderes, depende de sua inteligência, habilidades marciais e tecnologia avançada.</p>
-</section>
-
-<!-- Curiosidades -->
-<section class="mt-5">
-  <h2 class="mb-4"><i class="fas fa-lightbulb"></i> Curiosidades</h2>
-  <ul class="list-group">
-    <li class="list-group-item">Criado por Bob Kane e Bill Finger em 1939.</li>
-    <li class="list-group-item">Seu principal vilão é o Coringa, seu oposto filosófico.</li>
-    <li class="list-group-item">A Batcaverna fica debaixo da Mansão Wayne.</li>
-  </ul>
-</section>
-      </main>
+    
+    <section class="mt-5">
+      <h2 class="mb-4"><i class="fas fa-lightbulb"></i> Curiosidades</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Criado por Bob Kane e Bill Finger em 1939.</li>
+        <li class="list-group-item">Seu principal vilão é o Coringa, seu oposto filosófico.</li>
+        <li class="list-group-item">A Batcaverna fica debaixo da Mansão Wayne.</li>
+      </ul>
+    </section>
+  </main>
 
   
-  <footer class="text-center py-4 bg-dark text-light mt-5">
+  <footer class="text-center py-4 text-light mt-5">
     <p>&copy; 2025 HeroFandom - By Ben B | Waste Time</p>
   </footer>
-  <!-- -... . -. -.--   .-. . .. ... -->
 
   <script src="bootstrap/javascript/bootstrap.bundle.min.js"></script>
-
-
-
 </body>
 </html>
