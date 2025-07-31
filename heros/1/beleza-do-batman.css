@@ -1,0 +1,49 @@
+:root {
+  --bat-white: #eaeaea;
+}
+
+
+body {
+  background-color: #0a0a0a;
+  color: var(--bat-white);
+}
+
+.navbar {
+  background-color: #1f1f1f;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #ffc107;        /* YELLOW */
+  color: #ffc107;
+}
+
+.btn-secondary:hover {
+  background-color: #ffc107;
+  color: #0a0a0a;
+}
+
+.blockquote {
+  border-left: 5px solid #ffc107;
+  padding-left: 1rem;
+  color: var(--bat-white);
+}
+
+.list-group-item {
+  background-color: #1f1f1f;
+  border: 1px solid #ffc107;
+  color: var(--bat-white);
+}
+
+footer {
+  background-color:#1f1f1f;
+}
+
+h1,
+h2 {
+  color: #ffc107;
+}
+
+.lead {
+  color: #bbb;
+}

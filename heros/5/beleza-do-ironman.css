@@ -1,0 +1,43 @@
+
+:root {
+  --iron-red: #9e0b0f;
+  --iron-gold: #f5c518;
+  --iron-black: #1a1a1a;
+  --iron-gray: #2e2e2e;
+}
+
+body {
+  background-color: var(--iron-black);
+  color: #f8f9fa;
+}
+
+.navbar {
+  background-color: var(--iron-red) !important;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--iron-gold);
+  color: var(--iron-gold);
+}
+
+.btn-secondary:hover {
+  background-color: var(--iron-gold);
+  color: var(--iron-black);
+}
+
+.blockquote {
+  border-left: 5px solid var(--iron-gold);
+  padding-left: 1rem;
+  color: #f8f9fa;
+}
+
+.list-group-item {
+  background-color: var(--iron-gray);
+  border: 1px solid var(--iron-red);
+  color: #fff;
+}
+
+footer {
+  background-color: var(--iron-red);
+}
